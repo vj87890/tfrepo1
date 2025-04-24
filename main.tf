@@ -1,3 +1,16 @@
+terraform { 
+  cloud { 
+    
+    organization = "Vijay2997" 
+
+    workspaces { 
+      name = "tfrepo1" 
+    } 
+  } 
+}
+
+
+
 provider "aws" {
     region = "us-east-1"
   
